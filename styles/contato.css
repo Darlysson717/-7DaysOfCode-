@@ -1,0 +1,113 @@
+.contato{
+    width: Fill (1,440px)px;
+    height: Fixed (430px)px;
+    padding: 96px 0px 96px 0px;
+    gap: 32px;
+    opacity: 0px;
+    background-color: var(--cor-fundo-contato);
+
+  
+    
+}
+
+.contato__div{
+    width:hug(832px);
+   
+    padding: 0px 32px 0px 32px;
+    gap: 32px;
+    opacity: 0px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+.contato__titulo{
+    width: 768px;
+    height: 44px;
+    gap: 0px;
+    opacity: 0px;
+  
+    font-family:var(--font-banner);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--cor-titulo-vagas);
+    margin-bottom: 1px;
+    margin-top: 1px;
+
+        
+}
+
+
+.contato__texto{
+width: 768px;
+height: 30px;
+gap: 0px;
+opacity: 0px;
+
+font-family:var(--font-banner);
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: var(--cor-texto-vagas);
+
+
+}
+
+.contato__e-mail{
+   
+    width:25%;
+    height: Hug (48px)px;
+    gap: 6px;
+    opacity: 0px;
+    
+    gap: 16px;
+    opacity: 0px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 1em;
+    border-color: var(--cor-texto-vagas);
+    color: var(--cor-texto-vagas);
+
+}
+
+.ancora__email{
+    width: Hug (116px)px;
+height: Hug (48px)px;
+padding: 12px 20px 12px 20px;
+gap: 8px;
+border-radius: 8px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: var(--cor-de-ancora);
+color: var(--branco);
+text-decoration: none;
+font-family: var(--font-banner);
+margin-left: 16px;
+}
+
+.e-mail__ancora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.footer{
+   
+font-family: var(--font-banner);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+display: flex;
+justify-content: center;
+color: rgba(152, 162, 179, 1);
+margin-top: 32px;
+
+}
